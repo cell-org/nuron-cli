@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  nuron:
+    image: skogard/nuron
+    restart: always
+    volumes:
+      - type: bind
+        source: ${HOME}/__nuron__/v0
+        target: /usr/src/app/__nuron__/v0
+      - type: bind
+        source: ${HOME}/.keyport
+        target: /usr/src/app/__keyport__
+    ports:
+      - "42000:42000"
