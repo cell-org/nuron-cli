@@ -1,6 +1,6 @@
 {
-  "name": "nuron",
-  "version": "0.1.24",
+  "name": "nuron-cli",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "dependencies": {
     "docker-compose": "^0.23.17",
     "localtunnel": "^2.0.2",
-    "nuronjs": "^0.1.5",
+    "nuronjs": "^0.1.7",
     "prompts": "^2.4.2",
     "yaml": "^2.0.1"
   }
